@@ -1,0 +1,92 @@
+.top-buttons button{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    width: 220px;
+    height: 60px;
+    border: transparent;
+    background: #FDDA76;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .top-buttons{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  button:hover {
+    opacity: 0.5;
+  }
+  
+  
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 25px;
+  }
+  
+  th{
+    border-bottom: 1px solid black;
+  
+  }
+  th,td{
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .action-buttons{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+  .delete-btn{
+    background-color: #FF6961;
+  }
+  .edit-btn{
+    background-color: #4C9188;
+  }
+  
+  .top-space{
+    height: 100px;
+  }
+  #post-img{
+    width: 200px;
+    height: 200px;
+  }
+  #archives-img{
+    width: 200px;
+    height: 200px;
+  }
+  #featured-img{
+    width: 200px;
+    height: 200px;
+  }
+ #subfeatured-img{
+    width: 200px;
+    height: 200px;
+  }
+  #banner-img{
+    width: 500px;
+    height: 200px;
+  }
+
+  #aboutus-textarea{
+      background-color: rgba(255,255,255,0.7);
+      border-radius: 10px;
+      width: 100%;
+      padding: 20px;
+      font-size: 25px;
+      height: 500px;
+      resize: none;
+  }
+
+  
+  
+  
+  

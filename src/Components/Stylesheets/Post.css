@@ -1,0 +1,128 @@
+.main_body {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  font-family: "Noto Sans", sans-serif;
+}
+.content-container-1 {
+  background-color: white;
+  margin: 0px auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content-title {
+  margin: 0px;
+  text-align: left;
+}
+.content-author-date {
+  padding-bottom: 50px;
+}
+.content-container-1 img {
+  width: 100%;
+  height: 500px;
+}
+.content-paragraph {
+  text-align: justify;
+  padding-top: 50px;
+  word-wrap: break-word;
+  font-family: "Noto Sans", sans-serif;
+}
+.content-line {
+  margin-top: 100px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.content-section-comment {
+  background-color: white;
+  margin: 0px auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-name {
+  margin: 0px;
+  word-wrap: break-word;
+  text-align: left;
+}
+.content-comment {
+  margin: 0px;
+  word-wrap: break-word;
+}
+
+.content-leave {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  width: 97%;
+  padding: 20px;
+  font-size: 2vw;
+  height: 150px;
+  resize: none;
+}
+
+.content-inputs {
+  display: flex;
+  width: 450px;
+  padding: 20px 0px 20px 0px;
+}
+
+.content-inputs input[type="text"] {
+  border-radius: 10px;
+  height: 50px;
+  font-size: 2vw;
+}
+
+.content-inputs h1 {
+  font-weight: 500;
+  margin: auto auto auto 0px;
+}
+
+.btn-post,
+.btn-cancel {
+  padding: 10px;
+  border-radius: 50px;
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+}
+.btn-cancel {
+  margin-right: 50px;
+  margin-left: 50px;
+  border-color: #4c9188;
+  background-color: white;
+  font-size: 25px;
+  color: black;
+}
+
+.btn-cancel:hover {
+  background-color: #ff6961;
+  border-color: #ff6961;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-post {
+  background-color: #4c9188;
+  border-color: #4c9188;
+  font-size: 25px;
+}
+.btn-post:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content-leave-header,
+.content-comment-header {
+  margin-top: 50px;
+  display: block;
+  text-align: left;
+}
+
+
